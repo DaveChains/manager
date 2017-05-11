@@ -4,7 +4,7 @@
 import React,{ Component } from 'react';
 import {Text} from 'react-native';
 import firebase from 'firebase';
-import {CardSection, Card, Button, Input, Spinner} from '../index'
+import {CardSection, Card, Button, Input, Spinner} from './index'
 
 class LoginForm extends Component {
 

@@ -4,7 +4,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Text } from 'react-native';
-import { Card, CardSection, Input, Button, Spinner } from './index';
+import { Card, CardSection, Input, Button, Spinner } from './common/index';
 import { emailChanged, passwordChanged, loginUser} from '../actions';
 
 class LoginForm extends Component {

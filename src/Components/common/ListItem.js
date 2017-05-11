@@ -8,7 +8,7 @@ import { Text,
     LayoutAnimation
 } from 'react-native';
 import {connect} from 'react-redux';
-import { CardSection } from '../index';
+import { CardSection } from './index';
 import * as actions from '../../actions/index';
 
 class ListItem extends Component {
