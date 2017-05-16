@@ -11,7 +11,7 @@ import { EMAIL_CHANGED,
 const INITIAL_STATE = {
     email: '',
     password: '',
-    null,
+    // null,
     error: '',
     loading: false
 };
